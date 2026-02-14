@@ -9,7 +9,7 @@ println("Java: ${System.getProperty("java.version")}, JVM: ${System.getProperty(
 idea {
     // Tell IDEA to always download sources/javadoc artifacts from maven.
     module {
-        isDownloadJavadoc = true
+        isDownloadJavadoc = false
         isDownloadSources = true
     }
 }

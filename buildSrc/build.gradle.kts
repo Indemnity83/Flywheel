@@ -19,7 +19,7 @@ repositories {
 }
 
 idea.module {
-    isDownloadJavadoc = true
+    isDownloadJavadoc = false
     isDownloadSources = true
 }
 
